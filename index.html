@@ -2,11 +2,52 @@
 <html>
 <head>
 	<title>Rock Paper Scissors</title>
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
 </head>
 <body>
-	<h1>Rock Paper Scissors</h1>
-	<p>Play in the console</p>
-	<p>Type "game()" to start</p>
+	<img class="header-text" src="css/images/rock-paper-scissors.gif">
+
+<div class="container">
+	<div class="announcer-container">
+		<h1 class="game-announcer red">Click One Of The Images Below To Pick Your Move</h1>
+	</div>
+
+	<div class="input-container">
+		<div class="input">
+			<img class="input-img" src="css/images/rock.png">
+		</div>
+		<div class="input">
+			<img class="input-img" style="margin-top: 20px" src="css/images/paper.png">
+		</div>
+		<div class="input">
+			<img class="input-img" style="margin-top: 10px" src="css/images/scissors.gif">
+		</div>
+	</div>
+</div>
+	
+	<div class="score-board">
+		<div>
+			<h1 class="red score">Rounds:</h1>
+			<h1 class="score" id="round">0</h1>
+		</div>
+		
+		<div>
+			<h1 class="red score">Player:</h1>
+			<h1 class="score" id="player-score">0</h1>
+		</div>
+		
+		<div>
+			<h1 class="red score">Computer:</h1>
+			<h1 class="score" id="computer-score">0</h1>
+		</div>
+	</div>
+	
+	<br>
+	<img style="margin-top: 5%" src="css/images/barraconstruction.gif">
+	<br>
+	<img src="css/images/red_counter.gif">
+
+
 </body>
 <script type="text/javascript" src="game.js"></script>
 </html>

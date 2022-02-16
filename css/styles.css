@@ -1,0 +1,61 @@
+body {
+	background-image: url("images/background2.gif");
+	text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+	color: white;
+}
+
+.red {
+	color: red;
+}
+
+.header-text {
+	width: 45%;
+	margin: 2%;
+}
+
+.announcer-container {
+	width: 60%;
+	margin: auto;
+}
+
+.container {
+	background-color: black;
+	border: solid 1px red;
+	display: flex;
+	flex-direction: column;
+	width: 45%;
+	height: 400px;
+	margin: auto;
+}
+
+.game-announcer {
+	font-size: 3em;
+}
+
+.input-container {
+	display: flex;
+	width: 360px;
+	margin: 5% auto;
+}
+
+.input {
+	width: 120px;
+	padding: 1%;
+}
+
+.input-img {
+	max-width: 100px;
+}
+
+.score-board {
+	text-align: left;
+	width: 45%;
+	margin: 1% auto;
+}
+
+.score {
+	display: inline;
+}
